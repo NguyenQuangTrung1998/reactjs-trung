@@ -1,0 +1,36 @@
+.search{
+    width: 30px;
+}
+input{
+    border: none;
+    background-color:#343a40;
+    color: rgba(255,255,255,.5);
+}
+input:focus{
+    outline: none;
+}
+.auth{
+    justify-content: flex-end;
+    display: flex;
+   padding: 30px 20px;
+}
+.dn{
+    margin-left: 20px;
+    text-decoration: none;
+    color: rgb(151, 150, 146);
+}
+.dk{
+    text-decoration: none;
+    color: rgb(151, 150, 146);
+}
+.dk:hover{
+    text-decoration: none;
+    color: rgb(190, 189, 184);
+}
+.dn:hover{
+    color: rgb(190, 189, 184);
+    text-decoration: none;
+}
+.logo{
+    flex-grow: 1;
+}
